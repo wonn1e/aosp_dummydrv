@@ -1,0 +1,14 @@
+************** Modified parts from Normal World Andorid ************
+1. User Application
+	This directory named as 'DummyDev' is where the user program to 
+	access dummy driver through system calls
+
+	Original location within AOSP+OPTEE directory: ~/aosp_optee/packages/app/DummyDev
+
+2. Skeleton of Dummy Driver in Normal World
+	This directory, driver_dummy, contains the skeleton of the dummy driver in normal AOSP kernel.
+	
+	Original name of the directory is 'testDev'. It is modified in this git repository, to make 
+	it better understandable.
+
+	Original location within AOSP+OPTEE directory: ~/aosp_optee/kernel/linaro/hisilicon/drivers/testDev

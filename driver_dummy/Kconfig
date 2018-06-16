@@ -1,0 +1,3 @@
+config DUMMY_DRV
+	tristate "dummy driver"
+	default m
